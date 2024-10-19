@@ -2,8 +2,8 @@
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        Etudiant etudiant = new Etudiant("Dupont", "Jean", 12345);
-        Enseignant enseignant = new Enseignant("Martin", "Marie", "Professeur");
+        Etudiant etudiant = new Etudiant("AI", "Mehdi", 12345);
+        Enseignant enseignant = new Enseignant("Hafidi", "Imad", "Professeur");
 
         CompteUniversitaire compteEtudiant = new CompteUniversitaire(etudiant);
         CompteUniversitaire compteEnseignant = new CompteUniversitaire(enseignant);
