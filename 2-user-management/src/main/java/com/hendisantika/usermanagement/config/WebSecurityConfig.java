@@ -15,11 +15,6 @@ import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 /**
  * Created by IntelliJ IDEA.
  * Project : user-management
- * User: hendisantika
- * Email: hendisantika@gmail.com
- * Telegram : @hendisantika34
- * Date: 22/03/20
- * Time: 10.08
  */
 @Configuration
 @EnableWebSecurity

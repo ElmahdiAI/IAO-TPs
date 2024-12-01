@@ -1,16 +1,6 @@
 package com.hendisantika.usermanagement.entity;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.EntityListeners;
-import jakarta.persistence.FetchType;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-import jakarta.persistence.JoinColumn;
-import jakarta.persistence.JoinTable;
-import jakarta.persistence.ManyToMany;
-import jakarta.persistence.Transient;
+import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
 import lombok.AllArgsConstructor;
@@ -29,11 +19,6 @@ import java.util.Set;
 /**
  * Created by IntelliJ IDEA.
  * Project : user-management
- * User: hendisantika
- * Email: hendisantika@gmail.com
- * Telegram : @hendisantika34
- * Date: 22/03/20
- * Time: 10.03
  */
 @Entity
 @Data
@@ -41,6 +26,7 @@ import java.util.Set;
 @NoArgsConstructor
 @EqualsAndHashCode
 @EntityListeners(AuditingEntityListener.class)
+@Table(name = "users")  // Change the table name here
 public class User implements Serializable {
 
     private static final long serialVersionUID = 1671417246199538663L;

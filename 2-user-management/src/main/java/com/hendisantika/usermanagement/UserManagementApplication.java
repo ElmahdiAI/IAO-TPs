@@ -15,11 +15,6 @@ public class UserManagementApplication {
         SpringApplication.run(UserManagementApplication.class, args);
     }
 
-    //        @Bean
-//    public BCryptPasswordEncoder passwordEncoder() {
-//        bCryptPasswordEncoder = new BCryptPasswordEncoder(4);
-//        return bCryptPasswordEncoder;
-//    }
     @Bean
     public PasswordEncoder passwordEncoder() {
         return new BCryptPasswordEncoder();
