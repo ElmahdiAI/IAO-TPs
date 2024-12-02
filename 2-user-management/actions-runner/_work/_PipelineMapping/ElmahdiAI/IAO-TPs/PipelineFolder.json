@@ -1,0 +1,12 @@
+﻿{
+  "repositoryName": "ElmahdiAI/IAO-TPs",
+  "pipelineDirectory": "IAO-TPs",
+  "workspaceDirectory": "IAO-TPs\\IAO-TPs",
+  "repositories": {
+    "ElmahdiAI/IAO-TPs": {
+      "repositoryPath": "IAO-TPs\\IAO-TPs",
+      "lastRunOn": "12/02/2024 01:57:32 +01:00"
+    }
+  },
+  "lastRunOn": "12/02/2024 02:01:20 +01:00"
+}
