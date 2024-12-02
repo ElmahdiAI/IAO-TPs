@@ -32,3 +32,4 @@ build/
 .vscode/
 ### Sonarqube ###
 sonar-project.properties
+actions-runner/*
